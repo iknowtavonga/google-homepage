@@ -1,0 +1,67 @@
+/*Global*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 30px;
+}
+
+/*Header*/
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.navigation .left-side a{
+    color: black;
+    opacity: 0.75;  
+    padding-left: 15px;
+}
+
+.navigation .right-side{
+    display: flex;
+    align-items: center;
+}
+
+.navigation .right-side a{
+    color: rgba(0, 0, 0, 0.87);
+    padding-right: 15px;
+}
+
+.navigation .right-side img{
+    width: 40px;
+    padding-right: 15px;
+}
+
+#sign-in-button{
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #4c8bf5;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 70px;
+    height: 30px;
+}
+/* Footer*/
