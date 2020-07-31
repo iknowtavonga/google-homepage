@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     font-size: 13px;
+    color: #222;
 }
 
 ul{
@@ -64,4 +65,49 @@ a{
     width: 70px;
     height: 30px;
 }
-/* Footer*/
+
+/*Main*/
+
+main{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-glass{
+    width:30px
+}
+
+/* Footer */
+
+footer{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-top: 1px solid #e4e4e4
+}
+
+footer .left-side a{
+    font-size: 14px;
+    color: #5f6368;
+    opacity: 0.75;  
+    padding-left: 15px;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+footer .right-side a{
+    font-size: 14px;
+    color: #5f6368;
+    padding-right: 15px;
+}
